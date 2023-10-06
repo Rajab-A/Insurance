@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Blog</title>
+</head>
+<body>
+    <h1>WELCOME TO METLIFE INSURANCE</h1>
+    <h2>This is my first insurance page in django.</h2>
+    <p>In life, unforeseen events may arise that change our professional 
+     situation or affect our assests,our security and that of our family.
+     The future is impossible to foresee, but actions can be taken to 
+     allow us to live with greater peace of mind.</p>
+
+    <a href="{% url 'provider_page'%}">Provider</a>
+    <a href="{% url 'customer_page'%}">Customer</a>
+    <a href="{% url 'policy_page'%}">Policy</a>
+    <a href="{% url 'payment_page'%}">Payment</a>
+
+</body>
+</html>
